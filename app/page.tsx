@@ -1,7 +1,15 @@
+import Container from "./components/Container";
+import HomeBanner from "./components/nav/HomeBanner";
 
 
 export default function Home() {
   return (
-   <div>E-SHOP</div>
+   <div>
+    <Container>
+      <div>
+        <HomeBanner/>
+      </div>
+    </Container>
+   </div>
   )
 }
