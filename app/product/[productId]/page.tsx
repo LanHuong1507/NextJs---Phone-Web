@@ -2,7 +2,7 @@ import Container from "@/app/components/Container";
 import ProductDetails from "./ProductDetails";
 import  {product } from "@/utils/product";
 import Link from "next/link";
-import ListRating from "./ListRatng";
+import ListRating from "./ListRating";
 interface IParams {
   productId: string;
 }
