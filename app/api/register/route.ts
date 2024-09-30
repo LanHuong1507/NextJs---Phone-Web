@@ -1,4 +1,5 @@
-import bcrypt from 'bcrypt';
+
+import bcrypt from 'bcryptjs';
 import prisma from '@/libs/prismadb';
 import { NextResponse } from 'next/server';
 
